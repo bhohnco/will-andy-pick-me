@@ -1,6 +1,71 @@
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Life Savers', serif; */
 
+.header{
+    font-family: 'Life Savers', serif;
+    font-size: 46px;
+    color:#607AA0;
+    text-align: center;
+    margin-top: 30px;
+}
+.flex-box {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    align-items: flex-start;
+    margin-top: 1%;
+}
+.boxes1{
+    height: 305px;
+    width: 395px;
+    background-color:#E6ECF4;
+    margin:8px;
+    margin-left: 300px;
+    margin-bottom: 25px;
+}
+.container-1{
+    width: 375px;
+    height: 115px;
+}
+.container-1 img{
+    width: 57%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+.ask-question{
+    text-align: center;
+    width:25vw;
+    height: 1.7vw;
+    font-family:'Open Sans', sans-serif;
+    margin-left: 14px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.get-your-answer{
+    text-align: center;
+    background-color:#607AA0;
+    color:white;
+    width:25.2vw;
+    height: 1.7vw;
+    font-family:'Open Sans', sans-serif;
+    margin-left: 14px;
+}
+.container img{
+    width: 25%;
+    height: auto;
+    margin-left: 155px;
+    margin-top:40px
+}
+.clear-button{
+    background-color: #D0CDCD;;
+    margin-left: 330px;
+    margin-top: 60px;
+    color: white;
+
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
